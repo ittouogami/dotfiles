@@ -1,0 +1,1386 @@
+# Ç±ÇÃ viminfo ÉtÉ@ÉCÉãÇÕ Vim 8.0 Ç…ÇÊÇ¡Çƒê∂ê¨Ç≥ÇÍÇ‹ÇµÇΩ.
+# ïœçXÇ∑ÇÈç€Ç…ÇÕè\ï™íçà”ÇµÇƒÇ≠ÇæÇ≥Ç¢!
+
+# Viminfo version
+|1,4
+
+# Ç±ÇÃÉtÉ@ÉCÉãÇ™èëÇ©ÇÍÇΩéûÇÃ 'encoding' ÇÃíl
+*encoding=cp932
+
+
+# hlsearch on (H) or off (h):
+~h
+# ç≈å„ÇÃ åüçıÉpÉ^Å[Éì:
+~MSle0~/PIT_INT
+
+# ç≈å„ÇÃ Substitute åüçıÉpÉ^Å[Éì:
+~MSle0& next_rd 
+
+# ç≈å„Ç…íuä∑Ç≥ÇÍÇΩï∂éöóÒ:
+$ next_rd_n 
+
+# ÉRÉ}ÉìÉhÉâÉCÉì çÄñ⁄ÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃÇ÷):
+:wq
+|2,0,1497316630,,"wq"
+:q
+|2,0,1497252374,,"q"
+:w
+|2,0,1496884552,,"w"
+:1
+|2,0,1496653424,,"1"
+:$
+|2,0,1493622676,,"$"
+:1670
+|2,0,1491181136,,"1670"
+:%s///g
+|2,0,1490951425,,"%s///g"
+:%s/rptr1_reg/rptr_f2/g
+|2,0,1490949895,,"%s/rptr1_reg/rptr_f2/g"
+:%s/rptr0_reg/rptr_f1/g
+|2,0,1490949885,,"%s/rptr0_reg/rptr_f1/g"
+:%s/rptr_reg/rptr_f/g
+|2,0,1490949864,,"%s/rptr_reg/rptr_f/g"
+:%s/wptr1_reg/wptr_f2/g
+|2,0,1490949849,,"%s/wptr1_reg/wptr_f2/g"
+:%s/wptr0_reg/wptr_f1/g
+|2,0,1490949832,,"%s/wptr0_reg/wptr_f1/g"
+:%s/wptr_reg/wptr_f/g
+|2,0,1490949810,,"%s/wptr_reg/wptr_f/g"
+:%s/wfull/O_FULL/g
+|2,0,1490949786,,"%s/wfull/O_FULL/g"
+:%s/wdat/I_WDATA/g
+|2,0,1490949760,,"%s/wdat/I_WDATA/g"
+:%s/wen/I_WEN/g
+|2,0,1490949745,,"%s/wen/I_WEN/g"
+:%s/wclk/I_WCLK/g
+|2,0,1490949736,,"%s/wclk/I_WCLK/g"
+:%s/rst/I_RESET/g
+|2,0,1490949721,,"%s/rst/I_RESET/g"
+:%s/radr_reg/radd_f/g
+|2,0,1490949705,,"%s/radr_reg/radd_f/g"
+:%s/wadr_reg/wadd_f/g
+|2,0,1490949605,,"%s/wadr_reg/wadd_f/g"
+:%s/ next_rd / next_rd_n /g
+|2,0,1490936869,,"%s/ next_rd / next_rd_n /g"
+:%s/ next_wr / next_wr_n /g
+|2,0,1490936851,,"%s/ next_wr / next_wr_n /g"
+:%s/ empty / O_EMPTY /g
+|2,0,1490933271,,"%s/ empty / O_EMPTY /g"
+:%s/ full / O_FULL /g
+|2,0,1490933250,,"%s/ full / O_FULL /g"
+:%s/ rdata / O_RDATA /g
+|2,0,1490933236,,"%s/ rdata / O_RDATA /g"
+:%s/ ren / I_REN /g
+|2,0,1490933221,,"%s/ ren / I_REN /g"
+:%s/ rclk / I_RCLK /g
+|2,0,1490933205,,"%s/ rclk / I_RCLK /g"
+:%s/ wdata / I_WDATA /g
+|2,0,1490933185,,"%s/ wdata / I_WDATA /g"
+:%s/ wen / I_WEN /g
+|2,0,1490933168,,"%s/ wen / I_WEN /g"
+:%s/ wclk / I_WCLK /g
+|2,0,1490933155,,"%s/ wclk / I_WCLK /g"
+:%s/ reset / I_RESET /g
+|2,0,1490933128,,"%s/ reset / I_RESET /g"
+:.!!
+|2,0,1490838144,,".!!"
+:44
+|2,0,1490838043,,"44"
+:%s/C\:\/home/D\:\/home/g
+|2,0,1490835210,,"%s/C\\:\\/home/D\\:\\/home/g"
+:%s/rxidata/rxidata_n/g
+|2,0,1490831861,,"%s/rxidata/rxidata_n/g"
+:900
+|2,0,1490758061,,"900"
+:%s/pnum/plen/g
+|2,0,1490575592,,"%s/pnum/plen/g"
+:%s/ pnum_n / uart_tx_pnum_n /g
+|2,0,1490575579,,"%s/ pnum_n / uart_tx_pnum_n /g"
+:%s/outplen/uart_tx_plen/g
+|2,0,1490575390,,"%s/outplen/uart_tx_plen/g"
+:%s/outdata/uart_tx_data/g
+|2,0,1490575369,,"%s/outdata/uart_tx_data/g"
+:%s/tx_start_flg/bus_tx_flg/g
+|2,0,1490575144,,"%s/tx_start_flg/bus_tx_flg/g"
+:%s/txstartflg/tx_start_flg/g
+|2,0,1490575062,,"%s/txstartflg/tx_start_flg/g"
+:%s/outpnum/outplen/g
+|2,0,1490575032,,"%s/outpnum/outplen/g"
+:%s/outpnum/outlen/g
+|2,0,1490575018,,"%s/outpnum/outlen/g"
+:%s/uart_rx_num/uart_rx_len/g
+|2,0,1490574990,,"%s/uart_rx_num/uart_rx_len/g"
+:%s/num/len/g
+|2,0,1490581989,,"%s/num/len/g"
+:%s/bitnum/bit_len/g
+|2,0,1490603805,,"%s/bitnum/bit_len/g"
+:%s/data_err_f/dat_err_f/g
+|2,0,1490337841,,"%s/data_err_f/dat_err_f/g"
+:%s/ err_f/ buf_err_f/g
+|2,0,1490337826,,"%s/ err_f/ buf_err_f/g"
+:%s/err_end/err_fin/g
+|2,0,1490333068,,"%s/err_end/err_fin/g"
+:%s/err_end
+|2,0,1490333057,,"%s/err_end"
+:ww
+|2,0,1490332913,,"ww"
+:a
+|2,0,1490244309,,"a"
+:%s/symbolerr/symbol_err/g
+|2,0,1490237590,,"%s/symbolerr/symbol_err/g"
+:%s/starterr/start_err/g
+|2,0,1490234670,,"%s/starterr/start_err/g"
+:q!
+|2,0,1490158170,,"q!"
+:1570
+|2,0,1490074261,,"1570"
+:%s/uart_tx_pnum_n/uart_tx_plen_n/g
+|2,0,1489652427,,"%s/uart_tx_pnum_n/uart_tx_plen_n/g"
+:%s/uart_rx_num_n/uart_rx_len_n/g
+|2,0,1489649023,,"%s/uart_rx_num_n/uart_rx_len_n/g"
+:%s/uart_rx_start_n/uart_rx_fin_n/g
+|2,0,1489648957,,"%s/uart_rx_start_n/uart_rx_fin_n/g"
+:%s/bus_rx_pnum_n/bus_rx_plen_n/g
+|2,0,1489644994,,"%s/bus_rx_pnum_n/bus_rx_plen_n/g"
+:%s/sensor_bus_rx_en/serial_renb_n/g
+|2,0,1489471529,,"%s/sensor_bus_rx_en/serial_renb_n/g"
+:%s/sensor_bus_rx_ne/serial_renb_n/g
+|2,0,1489471513,,"%s/sensor_bus_rx_ne/serial_renb_n/g"
+:%s/sensor_bus_drive_en/serial_tenb_n/g
+|2,0,1489471489,,"%s/sensor_bus_drive_en/serial_tenb_n/g"
+:%s/h_baursel/baursel_n/g
+|2,0,1489471429,,"%s/h_baursel/baursel_n/g"
+:%s/UART_TX_PNUM/UART_TX_PLEN/g
+|2,0,1489465155,,"%s/UART_TX_PNUM/UART_TX_PLEN/g"
+:%s/UART_RX_NUM/UART_RX_LEN/g
+|2,0,1489465133,,"%s/UART_RX_NUM/UART_RX_LEN/g"
+:%s/bus_tx_num_n/bus_tx_len_n/g
+|2,0,1489464684,,"%s/bus_tx_num_n/bus_tx_len_n/g"
+:e ++ff=mac
+|2,0,1489483553,,"e ++ff=mac"
+:!e ++ff=mac
+|2,0,1489483336,,"!e ++ff=mac"
+:edit ++fileformat=mac
+|2,0,1489483304,,"edit ++fileformat=mac"
+:%s/O_BUS_RX_NUM/O_BUS_RX_LEN/g
+|2,0,1489464862,,"%s/O_BUS_RX_NUM/O_BUS_RX_LEN/g"
+:%s/uarttxflg_f/uart_tx_flg_f/g
+|2,0,1489479469,,"%s/uarttxflg_f/uart_tx_flg_f/g"
+:%s/O_UART_TX_PNUM/O_UART_TX_PLEN/g
+|2,0,1489464924,,"%s/O_UART_TX_PNUM/O_UART_TX_PLEN/g"
+:%s/I_UART_RX_NUM/I_UART_RX_LEN/g
+|2,0,1489464903,,"%s/I_UART_RX_NUM/I_UART_RX_LEN/g"
+:%s/I_BUS_RX_PNUM/I_BUS_RX_PLEN/g
+|2,0,1489464882,,"%s/I_BUS_RX_PNUM/I_BUS_RX_PLEN/g"
+:%s/O_BUS_TX_NUM/O_BUS_TX_LEN/g
+|2,0,1489464740,,"%s/O_BUS_TX_NUM/O_BUS_TX_LEN/g"
+:1111
+|2,0,1489391699,,"1111"
+:14
+|2,0,1489391686,,"14"
+:%s/O_UART_RX_NUM/O_UART_RX_LEN/g
+|2,0,1489464829,,"%s/O_UART_RX_NUM/O_UART_RX_LEN/g"
+:%s/
+|2,0,1489400152,,"%s/"
+:%s/bitnum_f/uart_rx_num_f/g
+|2,0,1489400104,,"%s/bitnum_f/uart_rx_num_f/g"
+:%s/I_UART_TX_PNUM/I_UART_TX_PLEN/g
+|2,0,1489464782,,"%s/I_UART_TX_PNUM/I_UART_TX_PLEN/g"
+:%s/I_H3_TX_LEN/I_BUS_TX_LEN/g
+|2,0,1489464558,,"%s/I_H3_TX_LEN/I_BUS_TX_LEN/g"
+:%s/I_H3_TX_DATA/I_BUS_TX_DATA/g
+|2,0,1489464539,,"%s/I_H3_TX_DATA/I_BUS_TX_DATA/g"
+:%s/I_H3_TX_START/I_BUS_TX_START/g
+|2,0,1489464523,,"%s/I_H3_TX_START/I_BUS_TX_START/g"
+:%s/I_H3_DATA/I_H3_TX_DATA/g
+|2,0,1489464300,,"%s/I_H3_DATA/I_H3_TX_DATA/g"
+:%s/I_BIT_LEN/I_H3_TX_LEN/g
+|2,0,1489464268,,"%s/I_BIT_LEN/I_H3_TX_LEN/g"
+:%s/I_TX_COM_LAT/I_H3_DATA/g
+|2,0,1489464242,,"%s/I_TX_COM_LAT/I_H3_DATA/g"
+:%s/I_TX_COM_LAT/I_H3_TX_LEN/g
+|2,0,1489464169,,"%s/I_TX_COM_LAT/I_H3_TX_LEN/g"
+:%s/I_TXSTART/I_H3_TX_START/g
+|2,0,1489464116,,"%s/I_TXSTART/I_H3_TX_START/g"
+:%s/I_TXSTART/I_TX_START/g
+|2,0,1489464054,,"%s/I_TXSTART/I_TX_START/g"
+:%s/\^M//g
+|2,0,1489369490,,"%s/\\^M//g"
+:%s/\^M/
+|2,0,1489369460,,"%s/\\^M/"
+:vertical diffsplit ..\..\FPGA\RTL\mainctl.v
+|2,0,1489039577,,"vertical diffsplit ..\\..\\FPGA\\RTL\\mainctl.v"
+:vertical diffsplit ..\..\FPGA_IDless\RTL\mainctl.v
+|2,0,1489039532,,"vertical diffsplit ..\\..\\FPGA_IDless\\RTL\\mainctl.v"
+:t
+|2,0,1489039135,,"t"
+:vartical diffsplit ../FPGA_IDless/RTL/mainctl.v
+|2,0,1489039016,,"vartical diffsplit ../FPGA_IDless/RTL/mainctl.v"
+:%s/ STATE / STATE_UTX /g
+|2,0,1488947738,,"%s/ STATE / STATE_UTX /g"
+:%s/STATE/STATE_UTX/g
+|2,0,1488869255,,"%s/STATE/STATE_UTX/g"
+:%s/FPGA_IDless/FPGA/g
+|2,0,1488853880,,"%s/FPGA_IDless/FPGA/g"
+:%s/FPGA_IDress/FPGA/g
+|2,0,1488853865,,"%s/FPGA_IDress/FPGA/g"
+:%s/betacnt/beta/g
+|2,0,1488799103,,"%s/betacnt/beta/g"
+:%s/STATE_TX/STATE_UTX/g
+|2,0,1488798030,,"%s/STATE_TX/STATE_UTX/g"
+:%s/RXSTATE/STATE_URX/g
+|2,0,1488798019,,"%s/RXSTATE/STATE_URX/g"
+:1555
+|2,0,1488787521,,"1555"
+:109
+|2,0,1488785387,,"109"
+:592
+|2,0,1488785335,,"592"
+:%s/TIMEOUT/\`TIMEOUT/g
+|2,0,1488785227,,"%s/TIMEOUT/\\`TIMEOUT/g"
+:%s/PREAMBLE_LEN/\`PREAMBLE_LEN/g
+|2,0,1488785202,,"%s/PREAMBLE_LEN/\\`PREAMBLE_LEN/g"
+:'<,'>1
+|2,0,1488784572,,"'<,'>1"
+:%s/I_BUS
+|2,0,1488782213,,"%s/I_BUS"
+:%s/I_FPGAON/I_BUS_EN/g
+|2,0,1488782112,,"%s/I_FPGAON/I_BUS_EN/g"
+:$s/I_FPGAON/I_BUS_EN/g
+|2,0,1488782102,,"$s/I_FPGAON/I_BUS_EN/g"
+:1542
+|2,0,1488764021,,"1542"
+:222
+|2,0,1488762107,,"222"
+:%s/ state_f / busrxstate_f /g
+|2,0,1488526850,,"%s/ state_f / busrxstate_f /g"
+:%s/h_rxpacketnum_f/uart_packet_num_f/g
+|2,0,1488449446,,"%s/h_rxpacketnum_f/uart_packet_num_f/g"
+:%s/h_rxpara_f/uart_tx_data_f/g
+|2,0,1488449339,,"%s/h_rxpara_f/uart_tx_data_f/g"
+:%s/rxdataen_f/uart_tx_start_f/g
+|2,0,1488449229,,"%s/rxdataen_f/uart_tx_start_f/g"
+:%s/\/FPGA\//\/FPGA_IDless\//g
+|2,0,1488246232,,"%s/\\/FPGA\\//\\/FPGA_IDless\\//g"
+:444
+|2,0,1488176944,,"444"
+:%s/C\:/D\:/g
+|2,0,1488165966,,"%s/C\\:/D\\:/g"
+:%s/parse_f/packeten_f/g
+|2,0,1487918696,,"%s/parse_f/packeten_f/g"
+:%s/STATE/STATE_H3RX/g
+|2,0,1487918199,,"%s/STATE/STATE_H3RX/g"
+:%s/UTXSTATE/STATE_UTX/g
+|2,0,1487810676,,"%s/UTXSTATE/STATE_UTX/g"
+:%s/MAINSTATE/STATE_MAIN/g
+|2,0,1487810649,,"%s/MAINSTATE/STATE_MAIN/g"
+:%s/BUSSTATE/STATE_H3/g
+|2,0,1487810486,,"%s/BUSSTATE/STATE_H3/g"
+:%s/ demo / demomode_n /g
+|2,0,1487581082,,"%s/ demo / demomode_n /g"
+:%s/ log / logmode_n /g
+|2,0,1487581073,,"%s/ log / logmode_n /g"
+:397
+|2,0,1487635667,,"397"
+:432
+|2,0,1487582952,,"432"
+:!
+|2,0,1487586104,,"!"
+:333
+|2,0,1487586072,,"333"
+:%s/	/   /g
+|2,0,1487665608,,"%s/	/   /g"
+
+# åüçıï∂éöóÒ çÄñ⁄ÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃÇ÷):
+?/ce_ld_1
+|2,1,1497254367,47,"ce_ld_1"
+?/clk1m_f
+|2,1,1497253869,47,"clk1m_f"
+?/ce_ld_1or
+|2,1,1497253708,47,"ce_ld_1or"
+?/ce_ld_g0rstr
+|2,1,1497247383,47,"ce_ld_g0rstr"
+?/c
+|2,1,1497247374,47,"c"
+?/gate0
+|2,1,1497247342,47,"gate0"
+? êß
+|2,1,1497252567,,"êß"
+?/PIN
+|2,1,1497252372,47,"PIN"
+?/pin
+|2,1,1497252370,47,"pin"
+?/U20
+|2,1,1496975678,47,"U20"
+?/PIT_INT
+|2,1,1496908511,47,"PIT_INT"
+?/gate
+|2,1,1496908849,47,"gate"
+?/ce_ld_1or20s 
+|2,1,1496908215,47,"ce_ld_1or20s "
+?/p_in
+|2,1,1496907895,47,"p_in"
+?/ p_in 
+|2,1,1496907888,47," p_in "
+?/do1_oe
+|2,1,1496884368,47,"do1_oe"
+?/DOEREG
+|2,1,1496731633,47,"DOEREG"
+?/oe1_do
+|2,1,1496731142,47,"oe1_do"
+?/reset_sw_f3
+|2,1,1496726937,47,"reset_sw_f3"
+?/mresc
+|2,1,1496724844,47,"mresc"
+?/abort 
+|2,1,1496716906,47,"abort "
+?/abo
+|2,1,1496653403,47,"abo"
+?/monitor_tp_calib_pre
+|2,1,1494815485,47,"monitor_tp_calib_pre"
+?/calib_init
+|2,1,1494815471,47,"calib_init"
+?/monitor_video_tpannel
+|2,1,1494815374,47,"monitor_video_tpannel"
+?/MON_CMD_TP
+|2,1,1494815339,47,"MON_CMD_TP"
+?/MON_CMD
+|2,1,1494815325,47,"MON_CMD"
+?/renesus
+|2,1,1493110289,47,"renesus"
+?/rz
+|2,1,1493110286,47,"rz"
+?/fore
+|2,1,1493080874,47,"fore"
+?/Des
+|2,1,1493080855,47,"Des"
+?/doInstall
+|2,1,1493079622,47,"doInstall"
+?/install
+|2,1,1493079599,47,"install"
+?/foregro
+|2,1,1493080072,47,"foregro"
+?/ES_HO
+|2,1,1493026857,47,"ES_HO"
+?/configs
+|2,1,1493026427,47,"configs"
+?/FESS_HOME
+|2,1,1493026205,47,"FESS_HOME"
+?/BUSERR
+|2,1,1491270849,47,"BUSERR"
+?/r01_crc
+|2,1,1491181073,47,"r01_crc"
+?/r00_node
+|2,1,1491181042,47,"r00_node"
+?/R
+|2,1,1491182845,47,"R"
+?/uart_tx_cnt_f
+|2,1,1490953882,47,"uart_tx_cnt_f"
+?/TXTIM
+|2,1,1490953873,47,"TXTIM"
+?/ren_f
+|2,1,1490948758,47,"ren_f"
+?/wen
+|2,1,1490946076,47,"wen"
+?/uart_tx_start
+|2,1,1490945656,47,"uart_tx_start"
+?/BUSERRNOP
+|2,1,1490944779,47,"BUSERRNOP"
+?/aaaaa
+|2,1,1490944742,47,"aaaaa"
+?/err_fin
+|2,1,1490943936,47,"err_fin"
+?/I_ERR_FIN
+|2,1,1490943932,47,"I_ERR_FIN"
+?/bus_rx_fin
+|2,1,1490943919,47,"bus_rx_fin"
+?/I_BUS_RX
+|2,1,1490943910,47,"I_BUS_RX"
+? 
+|2,1,1490951425,,""
+? rptr1_reg
+|2,1,1490949895,,"rptr1_reg"
+? rptr0_reg
+|2,1,1490949885,,"rptr0_reg"
+? rptr_reg
+|2,1,1490949864,,"rptr_reg"
+? wptr1_reg
+|2,1,1490949849,,"wptr1_reg"
+? wptr0_reg
+|2,1,1490949832,,"wptr0_reg"
+? wptr_reg
+|2,1,1490949810,,"wptr_reg"
+? wfull
+|2,1,1490949786,,"wfull"
+? wdat
+|2,1,1490949760,,"wdat"
+? wen
+|2,1,1490949745,,"wen"
+? wclk
+|2,1,1490949736,,"wclk"
+? rst
+|2,1,1490949721,,"rst"
+? radr_reg
+|2,1,1490949705,,"radr_reg"
+? wadr_reg
+|2,1,1490949605,,"wadr_reg"
+?/fifo
+|2,1,1490949146,47,"fifo"
+?/\~
+|2,1,1490936930,47,"\\~"
+?/~
+|2,1,1490936920,47,"~"
+?  next_rd 
+|2,1,1490936869,," next_rd "
+?  next_wr 
+|2,1,1490936851,," next_wr "
+?/ren
+|2,1,1490933886,47,"ren"
+?/pack
+|2,1,1490935236,47,"pack"
+?/start_err
+|2,1,1490939610,47,"start_err"
+?/start_err_c
+|2,1,1490937904,47,"start_err_c"
+?  empty 
+|2,1,1490933271,," empty "
+?  full 
+|2,1,1490933250,," full "
+?  rdata 
+|2,1,1490933236,," rdata "
+?  ren 
+|2,1,1490933221,," ren "
+?  rclk 
+|2,1,1490933205,," rclk "
+?  wdata 
+|2,1,1490933185,," wdata "
+?  wen 
+|2,1,1490933168,," wen "
+?  wclk 
+|2,1,1490933155,," wclk "
+?  reset 
+|2,1,1490933128,," reset "
+?/pars
+|2,1,1490921440,47,"pars"
+?/par
+|2,1,1490921436,47,"par"
+?/pur
+|2,1,1490921435,47,"pur"
+?/pu
+|2,1,1490921428,47,"pu"
+?/bus_en_n
+|2,1,1490919721,47,"bus_en_n"
+?/main_s
+|2,1,1490919595,47,"main_s"
+?/ ACK 
+|2,1,1490919266,47," ACK "
+?/ACK
+|2,1,1490919254,47,"ACK"
+?/dat_err
+|2,1,1490919170,47,"dat_err"
+?/data_f3
+|2,1,1490851192,47,"data_f3"
+?/packetc
+|2,1,1490850183,47,"packetc"
+?/packetcnt
+|2,1,1490850178,47,"packetcnt"
+?/DEMO
+|2,1,1490849232,47,"DEMO"
+?/LOGMO
+|2,1,1490849229,47,"LOGMO"
+?/txstate
+|2,1,1490849214,47,"txstate"
+?/LOGMODE
+|2,1,1490849168,47,"LOGMODE"
+?/tx_fin
+|2,1,1490848571,47,"tx_fin"
+?/delimi
+|2,1,1490848266,47,"delimi"
+?/utxf
+|2,1,1490848034,47,"utxf"
+?/fin_f
+|2,1,1490847456,47,"fin_f"
+?/utxfin_f2
+|2,1,1490846625,47,"utxfin_f2"
+?/uart_tx_start_f3
+|2,1,1490846604,47,"uart_tx_start_f3"
+?/utxstart_f
+|2,1,1490846487,47,"utxstart_f"
+?/start_f3
+|2,1,1490846444,47,"start_f3"
+?/uart_tx_data_f
+|2,1,1490844294,47,"uart_tx_data_f"
+?/uart_tx_start_f2
+|2,1,1490843023,47,"uart_tx_start_f2"
+?/ack_f 
+|2,1,1490838056,47,"ack_f "
+?/utxfin
+|2,1,1490836689,47,"utxfin"
+?/packet
+|2,1,1490836615,47,"packet"
+?/pac
+|2,1,1490836610,47,"pac"
+?/ nack_f
+|2,1,1490836198,47," nack_f"
+?/ ack_f 
+|2,1,1490836101,47," ack_f "
+?/I_UART_TX_STAR
+|2,1,1490832312,47,"I_UART_TX_STAR"
+?/H3_RX_LEN
+|2,1,1490839622,47,"H3_RX_LEN"
+?/uart_tx_start_f 
+|2,1,1490843037,47,"uart_tx_start_f "
+?/DELIMI
+|2,1,1490833733,47,"DELIMI"
+? C\:\/home
+|2,1,1490835210,,"C\\:\\/home"
+?/altera_mf_ver
+|2,1,1490834919,47,"altera_mf_ver"
+?/altera_mf
+|2,1,1490834899,47,"altera_mf"
+?/READ
+|2,1,1490832011,47,"READ"
+? rxidata
+|2,1,1490831861,,"rxidata"
+?/TRATE
+|2,1,1490831387,47,"TRATE"
+?/uart_tx_start_f
+|2,1,1490759445,47,"uart_tx_start_f"
+?/uart_tx_star
+|2,1,1490759079,47,"uart_tx_star"
+?/uart_tx_sta
+|2,1,1490759074,47,"uart_tx_sta"
+?/r00
+|2,1,1490758034,47,"r00"
+?/bus_rx_fin_f3
+|2,1,1490757758,47,"bus_rx_fin_f3"
+?/uart_tx_fin
+|2,1,1490755707,47,"uart_tx_fin"
+?/uart_tx_flg_f
+|2,1,1490747329,47,"uart_tx_flg_f"
+?/O_ACK
+|2,1,1490744716,47,"O_ACK"
+?/flg
+|2,1,1490702178,47,"flg"
+?/ err_n
+|2,1,1490768517,47," err_n"
+?/simstep 
+|2,1,1490578126,47,"simstep "
+?/sim
+|2,1,1490578118,47,"sim"
+?/8
+|2,1,1490578111,47,"8"
+?/BUFERR
+|2,1,1490675150,47,"BUFERR"
+?/fif
+|2,1,1490674745,47,"fif"
+?/UART
+|2,1,1490672018,47,"UART"
+?/buf_err
+|2,1,1490671941,47,"buf_err"
+?/ ack
+|2,1,1490671671,47," ack"
+?/full_n
+|2,1,1490668333,47,"full_n"
+?/uart_tx_flg
+|2,1,1490664331,47,"uart_tx_flg"
+?/err
+|2,1,1490663963,47,"err"
+??reg
+|2,1,1490663930,63,"reg"
+?/logdemo_f3
+|2,1,1490663915,47,"logdemo_f3"
+?/bus_rx-fin_f3
+|2,1,1490660313,47,"bus_rx-fin_f3"
+?/bus_rx_
+|2,1,1490657974,47,"bus_rx_"
+?/logdemo_f2
+|2,1,1490602757,47,"logdemo_f2"
+?/logdemo_f
+|2,1,1490602324,47,"logdemo_f"
+?/uart_rx_fin_f2
+|2,1,1490600966,47,"uart_rx_fin_f2"
+?/bus_rx_fin_f2
+|2,1,1490600659,47,"bus_rx_fin_f2"
+?/bus_rx_data_f3
+|2,1,1490597005,47,"bus_rx_data_f3"
+?/bus_rx_fin_f 
+|2,1,1490593823,47,"bus_rx_fin_f "
+?/D_ACK
+|2,1,1490586581,47,"D_ACK"
+?/ack
+|2,1,1490586564,47,"ack"
+?/r00_id
+|2,1,1490583744,47,"r00_id"
+?/bus_rx_fin_f
+|2,1,1490580376,47,"bus_rx_fin_f"
+?/demoid
+|2,1,1490579661,47,"demoid"
+?/stop
+|2,1,1490579079,47,"stop"
+?/BUS
+|2,1,1490575729,47,"BUS"
+?/uart_rx_len_f
+|2,1,1490575672,47,"uart_rx_len_f"
+? pnum
+|2,1,1490575592,,"pnum"
+?  pnum_n 
+|2,1,1490575579,," pnum_n "
+?/ pnum_n 
+|2,1,1490575540,47," pnum_n "
+? outplen
+|2,1,1490575390,,"outplen"
+? outdata
+|2,1,1490575369,,"outdata"
+?/outda
+|2,1,1490575301,47,"outda"
+? tx_start_flg
+|2,1,1490575144,,"tx_start_flg"
+?/tx_start_fl
+|2,1,1490575120,47,"tx_start_fl"
+?/tx_start_
+|2,1,1490575109,47,"tx_start_"
+? txstartflg
+|2,1,1490575062,,"txstartflg"
+? outpnum
+|2,1,1490575032,,"outpnum"
+?/num
+|2,1,1490575004,47,"num"
+? uart_rx_num
+|2,1,1490574990,,"uart_rx_num"
+?/csymbol_n
+|2,1,1490574268,47,"csymbol_n"
+?/uart_tx_s
+|2,1,1490606327,47,"uart_tx_s"
+? num
+|2,1,1490581989,,"num"
+? bitnum
+|2,1,1490603805,,"bitnum"
+? data_err_f
+|2,1,1490337841,,"data_err_f"
+?  err_f
+|2,1,1490337826,," err_f"
+?/uart_packet_num_f2
+|2,1,1490329308,47,"uart_packet_num_f2"
+?/LOGDA
+|2,1,1490321438,47,"LOGDA"
+?/uart_tx_data
+|2,1,1490318203,47,"uart_tx_data"
+?/UART_TX_FI
+|2,1,1490348426,47,"UART_TX_FI"
+?/UART_TX
+|2,1,1490348416,47,"UART_TX"
+?/uart_tx_fin_f
+|2,1,1490344078,47,"uart_tx_fin_f"
+?/DATERR
+|2,1,1490343994,47,"DATERR"
+?/outpnum
+|2,1,1490342781,47,"outpnum"
+?/UART_BUF
+|2,1,1490340111,47,"UART_BUF"
+?/symbo
+|2,1,1490337533,47,"symbo"
+?/logmode
+|2,1,1490335879,47,"logmode"
+?/demomode
+|2,1,1490335839,47,"demomode"
+? err_end
+|2,1,1490333068,,"err_end"
+?/ERR_FI
+|2,1,1490333025,47,"ERR_FI"
+?/ack_f
+|2,1,1490328344,47,"ack_f"
+?/LOGDATA
+|2,1,1490319822,47,"LOGDATA"
+
+# éÆ çÄñ⁄ÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃÇ÷):
+
+# ì¸óÕçs çÄñ⁄ÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃÇ÷):
+
+# ÉfÉoÉbÉOçs çÄñ⁄ÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃÇ÷):
+
+# ÉåÉWÉXÉ^:
+"0	LINE	0
+	set ES_HOME=%FESS_HOME%/es
+|3,0,0,1,1,0,1493026870,"set ES_HOME=%FESS_HOME%/es"
+"1	LINE	0
+	
+|3,0,1,1,1,0,1491460256,""
+"2	LINE	0
+	Å@
+|3,0,2,1,1,0,1491459904,"Å@"
+"3	LINE	0
+	Å@êîÇ»Ç«ÇÕçÏÇËçûÇÒÇ≈óLÇÈÇ‡ÇÃÇÃégÇÌÇÍÇƒÇ¢Ç»Ç¢èÛë‘Ç≈Ç∑ÅB
+|3,0,3,1,1,0,1491459903,"Å@êîÇ»Ç«ÇÕçÏÇËçûÇÒÇ≈óLÇÈÇ‡ÇÃÇÃégÇÌÇÍÇƒÇ¢Ç»Ç¢èÛë‘Ç≈Ç∑ÅB"
+"4	LINE	0
+	Å@ç°âÒÇÕCRCÉGÉâÅ[Ç≈ÉfÅ[É^çXêVÇµÇ»Ç¢èàóùÇ∆ÇµÇƒÇ¢Ç‹Ç∑Ç™ÅAÉGÉâÅ[Ç™ãNÇ±Ç¡ÇΩâÒ
+|3,0,4,1,1,0,1491459903,"Å@ç°âÒÇÕCRCÉGÉâÅ[Ç≈ÉfÅ[É^çXêVÇµÇ»Ç¢èàóùÇ∆ÇµÇƒÇ¢Ç‹Ç∑Ç™ÅAÉGÉâÅ[Ç™ãNÇ±Ç¡ÇΩâÒ"
+"5	LINE	0
+	Å@FPGAÇ≈èàóùÇ∑ÇÈÇ»ÇÁÅAÉvÉçÉOÉâÉÄÇ…CRCÉGÉâÅ[Ç™óLÇ¡ÇΩÇ±Ç∆Çì`Ç¶ÇÈÇÃÇ©ÅA
+|3,0,5,1,1,0,1491459903,"Å@FPGAÇ≈èàóùÇ∑ÇÈÇ»ÇÁÅAÉvÉçÉOÉâÉÄÇ…CRCÉGÉâÅ[Ç™óLÇ¡ÇΩÇ±Ç∆Çì`Ç¶ÇÈÇÃÇ©ÅA"
+"6	LINE	0
+	Å@ïKóvÇ™óLÇËÇ‹Ç∑ÅBCRCÇ™ÉGÉâÅ[Ç≈Ç†Ç¡ÇΩèÍçáÇÃèàóùÇ∆ÉZÉbÉgÇ…Ç»ÇÈÇ∆évÇ¢Ç‹Ç∑ÇÃÇ≈ÅA
+|3,0,6,1,1,0,1491459902,"Å@ïKóvÇ™óLÇËÇ‹Ç∑ÅBCRCÇ™ÉGÉâÅ[Ç≈Ç†Ç¡ÇΩèÍçáÇÃèàóùÇ∆ÉZÉbÉgÇ…Ç»ÇÈÇ∆évÇ¢Ç‹Ç∑ÇÃÇ≈ÅA"
+"7	LINE	0
+	9.CRCîªíËÇ≈Ç∑Ç™ÅAÉvÉçÉOÉâÉÄÇ≈éùÇΩÇπÇÈÇÃÇ©FPGAÇ≈éùÇΩÇπÇÈÇÃÇ©ê±Ç›ï™ÇØÇåàÇﬂÇÈ
+|3,0,7,1,1,0,1491459902,"9.CRCîªíËÇ≈Ç∑Ç™ÅAÉvÉçÉOÉâÉÄÇ≈éùÇΩÇπÇÈÇÃÇ©FPGAÇ≈éùÇΩÇπÇÈÇÃÇ©ê±Ç›ï™ÇØÇåàÇﬂÇÈ"
+"8	LINE	0
+	Å@ÅB
+|3,0,8,1,1,0,1491459864,"Å@ÅB"
+"9	LINE	0
+	Å@ìÔÇµÇ¢ÉAÉiÉçÉOèàóùÇ™ì¸ÇÈèÍçá)ÅB
+|3,0,9,1,1,0,1491458078,"Å@ìÔÇµÇ¢ÉAÉiÉçÉOèàóùÇ™ì¸ÇÈèÍçá)ÅB"
+""-	CHAR	0
+	morning
+|3,1,36,0,1,0,1497316623,"morning"
+
+# ÉtÉ@ÉCÉãÉ}Å[ÉN:
+'0  61  15  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,48,61,15,1497317285,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+'1  24  99  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,49,24,99,1497317233,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+'2  24  99  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,50,24,99,1497317233,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+'3  66  20  D:\usr\local\vim\gvimrc
+|4,51,66,20,1497316740,"D:\\usr\\local\\vim\\gvimrc"
+'4  1  0  D:\usr\local\vim\_gvimrc
+|4,52,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+'5  9  0  ~\.vimrc
+|4,53,9,0,1497316693,"~\\.vimrc"
+'6  14  1  ~\.vimrc
+|4,54,14,1,1497316633,"~\\.vimrc"
+'7  14  1  ~\.vimrc
+|4,55,14,1,1497316633,"~\\.vimrc"
+'8  66  20  D:\usr\local\vim\gvimrc
+|4,56,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+'9  3  0  ~\_gvimrc
+|4,57,3,0,1497316354,"~\\_gvimrc"
+
+# ÉWÉÉÉìÉvÉäÉXÉg (êVÇµÇ¢Ç‡ÇÃÇ™êÊ):
+-'  61  15  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,39,61,15,1497317285,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+-'  24  74  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,39,24,74,1497317269,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+-'  24  99  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,39,24,99,1497317233,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+-'  1  0  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,39,1,0,1497317133,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+-'  1  0  C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+|4,39,1,0,1497317133,"C:\\Users\\takanobu_hara\\Desktop\\vim80-kaoriya-win64-8.0.0596-20170502\\vim80-kaoriya-win64\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316740,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316740,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316740,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316740,"D:\\usr\\local\\vim\\gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  1  0  D:\usr\local\vim\_gvimrc
+|4,39,1,0,1497316717,"D:\\usr\\local\\vim\\_gvimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  9  0  ~\.vimrc
+|4,39,9,0,1497316693,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316663,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  14  1  ~\.vimrc
+|4,39,14,1,1497316633,"~\\.vimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  66  20  D:\usr\local\vim\gvimrc
+|4,39,66,20,1497316630,"D:\\usr\\local\\vim\\gvimrc"
+-'  1  0  D:\usr\local\vim\gvimrc
+|4,39,1,0,1497316516,"D:\\usr\\local\\vim\\gvimrc"
+-'  1  0  D:\usr\local\vim\gvimrc
+|4,39,1,0,1497316516,"D:\\usr\\local\\vim\\gvimrc"
+-'  1  0  D:\usr\local\vim\gvimrc
+|4,39,1,0,1497316516,"D:\\usr\\local\\vim\\gvimrc"
+
+# ÉtÉ@ÉCÉãì‡É}Å[ÉNÇÃóöó (êVÇµÇ¢Ç‡ÇÃÇ©ÇÁå√Ç¢Ç‡ÇÃ):
+
+> C:\Users\takanobu_hara\Desktop\vim80-kaoriya-win64-8.0.0596-20170502\vim80-kaoriya-win64\gvimrc
+	*	1497317277	0
+	"	61	15
+
+> D:\usr\local\vim\gvimrc
+	*	1497316737	0
+	"	66	20
+	^	66	21
+	.	7	0
+	+	66	20
+	+	7	0
+
+> D:\usr\local\vim\_gvimrc
+	*	1497316715	0
+	"	1	0
+
+> ~\.vimrc
+	*	1497316690	0
+	"	9	0
+	^	11	66
+	.	1	0
+	+	407	13
+	+	1	0
+
+> ~\_gvimrc
+	*	1497316347	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~\.viminfo
+	*	1497314734	0
+	"	156	6
+
+> ~\Xilinx\IOCTRLrevB\ioctrl.v
+	*	1497259120	0
+	"	1410	7
+
+> ~\Xilinx\IOCTRLrevB\PI.v
+	*	1497257322	0
+	"	19	18
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0\src\module\Function.vb
+	*	1497253580	0
+	"	3094	39
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0\src\module\mGlobal.vb
+	*	1497253569	0
+	"	29	0
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0\src\class\clsEXGL.vb
+	*	1497252222	0
+	"	414	17
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0\src\Maintenance_1.vb
+	*	1497252194	0
+	"	455	16
+	.	455	16
+	+	455	16
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0\src\frmMain.vb
+	*	1497252130	0
+	"	695	65
+	.	661	46
+	+	661	46
+
+> ~\Xilinx\IOCTRLrevB\sim8254.v
+	*	1497247730	0
+	"	24	0
+
+> ~\Xilinx\IOCTRLrevB\top_ioctrl.v
+	*	1497247438	0
+	"	129	14
+
+> ~\governor\[200]firmware\m8245„Ç∑„Çπ„Éó„É≠\EX4_Ver1.0.0\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\EX4_Ver1.0.0.0_20161202_Design‰∏çÂÖ∑Âêà‰øÆÊ≠£\„É°„É¢.txt
+	*	1497226685	0
+	"	1	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\armadillo4x0\board.h
+	*	1496996080	0
+	"	1	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\armadillo4x0\board.c
+	*	1496995993	0
+	"	777	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\armadillo4x0\vector.S
+	*	1496995940	0
+	"	21	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\armadillo4x0\board-armadillo460.h
+	*	1496995901	0
+	"	48	29
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\core\lib1funcs.S
+	*	1496995818	0
+	"	225	7
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\target\core\boost_arm.S
+	*	1496995754	0
+	"	273	3
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\src\host\common\main.c
+	*	1496995651	0
+	"	243	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\hermit-at-3.8.0-source.tar\hermit-at-3.8.0\configs\armadillo4x0_boot_defconfig
+	*	1496995601	0
+	"	120	29
+
+> C:\Users\takanobu_hara\AppData\Local\Temp\M8245MTBFÊ§úË®éÁµêÊûú.txt
+	*	1496985840	0
+	"	28	81
+
+> ~\governor\[100]schematic\M8245\M8245_20160204.NET
+	*	1496975767	0
+	"	2889	24
+
+> C:\Users\takanobu_hara\AppData\Local\Temp\ÊâìÂêàË®™ÂïèË≠∞‰∫ãÈå≤(2017_6_8).txt
+	*	1496964273	0
+	"	24	21
+
+> ~\governor\[110]fpga\IOCTRLrevB\ioctrl.v
+	*	1496912228	0
+	"	1338	0
+
+> ~\governor\[110]fpga\M8145Èñ¢ÈÄ£\M804553.vf
+	*	1496911787	0
+	"	369	105
+
+> ~\Xilinx\IOCTRLrevB\sim_top.v
+	*	1496907446	0
+	"	791	0
+	^	800	2
+	.	798	0
+	+	800	1
+	+	798	0
+
+> ~\Xilinx\IOCTRLrevB\DIO.v
+	*	1496886999	0
+	"	14	30
+
+> ~\governor\[500]document\20160325Ë©¶‰ΩúÂìÅÊ§úÊüªË®òÈå≤\SN6020004„ÅØ20160427„Å´‰∫§Êèõ.txt
+	*	1496881126	0
+	"	1	0
+
+> ~\governor\[500]document\„Ç¢„É≥„Éö„Éº„É´‰ªïÊßòÊõ∏\M8245„Å®M8145„ÅÆCN3‰ø°Âè∑„ÅÆÊ≥®ÊÑèÁÇπ.txt
+	*	1496880984	0
+	"	1	0
+
+> ~\governor\[510]assessment\Ê≥¢ÂΩ¢\AO\readme.txt
+	*	1496819657	0
+	"	11	75
+
+> ~\governor\[510]assessment\„Éá„Éê„ÉÉ„Ç∞„É™„Çπ„Éà\M8245„Éá„Éê„ÉÉ„Ç∞„É°„É¢.txt
+	*	1496816062	0
+	"	18	42
+
+> ~\governor\[200]firmware\m8245\source\serial.cpp
+	*	1496815866	0
+	"	266	0
+
+> ~\governor\[200]firmware\m8245\include\monitorconf.hpp
+	*	1496815648	0
+	"	30	60
+
+> ~\governor\[200]firmware\m8245\include\monitor.hpp
+	*	1496815609	0
+	"	26	0
+
+> ~\governor\[200]firmware\m8245\include\fpga.hpp
+	*	1496815582	0
+	"	123	54
+
+> ~\governor\[200]firmware\m8245\include\7216.h
+	*	1496815554	0
+	"	4994	55
+
+> ~\governor\[200]firmware\m8245\source\m8245.cpp
+	*	1496815480	0
+	"	17	0
+
+> ~\governor\[200]firmware\m8245\source\lowsrc.cpp
+	*	1496815444	0
+	"	323	0
+
+> ~\governor\[200]firmware\m8245\source\access.asm
+	*	1496815430	0
+	"	120	16
+
+> ~\governor\[200]firmware\m8245\source\sh7216e.c
+	*	1496815343	0
+	"	992	34
+
+> ~\governor\[200]firmware\m8245\source\boot.cpp
+	*	1496815217	0
+	"	171	36
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\ATMARK\CDROM\cross-dev\deb\README
+	*	1496741063	0
+	"	1	0
+
+> ~\governor\[110]fpga\IOCTRLrevB\top_ioctrl.v
+	*	1496739259	0
+	"	170	12
+
+> ~\governor\[500]document\ÈñãÁô∫Ë¶ãÁ©ç\„Ç¨„Éê„ÉäË≥™Âïè„É°„Éº„É´.txt
+	*	1496716442	0
+	"	35	23
+
+> ~\governor\[500]document\ÈñãÁô∫Ë¶ãÁ©ç\EMCË©¶È®ìÊ©üÊùêÁ¢∫Ë™ç„É°„Éº„É´.txt
+	*	1496716425	0
+	"	1	0
+
+> ~\governor\[500]document\Êã°ÂºµDIOAIO„É°„É¢.txt
+	*	1496716191	0
+	"	1	0
+
+> ~\governor\[500]document\20160316Âá∫Ëç∑ÂâçÁ¢∫Ë™ç.txt
+	*	1496716159	0
+	"	1	0
+
+> ~\governor\[500]document\20160218Ë≠∞‰∫ãÈå≤.txt
+	*	1496716154	0
+	"	21	47
+
+> ~\governor\[500]document\20151116Ë≠∞‰∫ãÈå≤.txt
+	*	1496716142	0
+	"	24	12
+
+> ~\governor\[200]firmware\m8245\n4dsh2afpu.bat
+	*	1496713116	0
+	"	1	0
+
+> ~\governor\[200]firmware\m8245\nortilib.bat
+	*	1496713091	0
+	"	1	0
+
+> ~\governor\[210]application\m8245app\m8245app\My Project\Application.Designer.vb
+	*	1496712539	0
+	"	30	63
+
+> ~\governor\[510]assessment\Áµ∂Á∏ÅÊäµÊäó\Êù°‰ª∂.txt
+	*	1496712368	0
+	"	1	0
+
+> ~\linuxË≥áÊñô\Elo_Linux_MT_USB_Driver_v1.0.0_armv7l\bin-usb\elo_mt_input_mod_src\elo_mt_input.c
+	*	1496645656	0
+	"	66	1
+
+> ~\linuxË≥áÊñô\Elo_Linux_MT_USB_Driver_v1.0.0_armv7l\bin-usb\readme.txt
+	*	1496645652	0
+	"	109	6
+
+> ~\linuxË≥áÊñô\tpdd400_linux\g4.0.0\gunze.c
+	*	1496620661	0
+	"	231	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\common\lcdkit.c
+	*	1496405416	0
+	"	331	4
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\driver\include\vdc4_api.h
+	*	1496398184	0
+	"	403	15
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\driver\include\vdc4_user.h
+	*	1496398174	0
+	"	29	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\main.c
+	*	1496398088	0
+	"	205	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\app\vdc4_lcd_LCDKIT.c
+	*	1496398032	0
+	"	204	31
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\common\hwsetup.c
+	*	1496397974	0
+	"	135	61
+
+> C:\Users\takanobu_hara\Desktop\u-boot-2017.05.tar\u-boot-2017.05\board\freescale\mx25pdk\MAINTAINERS
+	*	1496373433	0
+	"	1	0
+
+> D:\home\RSKRZA1-BSP-V1.3.0.tar\RSKRZA1-BSP-V1.3.0\output\buildroot-2016.08\configs\rskrza1_min_defconfig
+	*	1496116944	0
+	"	1	0
+
+> D:\home\RSKRZA1-BSP-V1.3.0.tar\RSKRZA1-BSP-V1.3.0\output\buildroot-2016.08\configs\rskrza1_defconfig
+	*	1496116902	0
+	"	1	0
+
+> C:\altera\14.1\kits\cycloneVSX_5csxfc6df31_soc\examples\board_test_system\README.TXT
+	*	1495758286	0
+	"	32	45
+
+> ~\oga\FPGA\implement\h3demo.qpf
+	*	1495672252	0
+	"	10	34
+
+> C:\Users\takanobu_hara\Desktop\Êñ∞„Åó„ÅÑ„ÉÜ„Ç≠„Çπ„Éà „Éâ„Ç≠„É•„É°„É≥„Éà.txt
+	*	1495669694	0
+	"	75	46
+	^	77	98
+	.	1	0
+	+	1	0
+
+> C:\Users\takanobu_hara\Desktop\hermit-at-4.1.1-source.tar\hermit-at-4.1.1\src\target\armadillo4x0\board.c
+	*	1495076368	0
+	"	239	2
+
+> C:\Users\takanobu_hara\Desktop\hermit-at-4.1.1-source.tar\hermit-at-4.1.1\src\target\armadillo4x0\boot.S
+	*	1495076218	0
+	"	149	5
+
+> C:\Users\takanobu_hara\Desktop\hermit-at-4.1.1-source.tar\hermit-at-4.1.1\src\host\common\main.c
+	*	1495076136	0
+	"	153	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\mon_video.h
+	*	1494827787	0
+	"	50	9
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\mon_video.c
+	*	1494820431	0
+	"	1082	11
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\main.c
+	*	1494820415	0
+	"	104	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\ascii.h
+	*	1494820306	0
+	"	17	17
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\monitor.c
+	*	1494813700	0
+	"	84	25
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\mon_serial.h
+	*	1494813637	0
+	"	18	28
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\mon_serial.c
+	*	1494813567	0
+	"	24	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\monitor\monitor.h
+	*	1494813496	0
+	"	31	20
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\lcdkit\lcdkit_b01\lcdkit_b01.c
+	*	1494810629	0
+	"	15	20
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\lcdkit\lcdkit.c
+	*	1494810572	0
+	"	137	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\ap_rza_0a\gic.c
+	*	1494810541	0
+	"	1	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\ap_rza_0a\Renesas_RZ_A1.h
+	*	1494810510	0
+	"	96	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\ap_rza_0a\pl310.c
+	*	1494810497	0
+	"	1	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\retarget.c
+	*	1494810464	0
+	"	150	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\common.h
+	*	1494810447	0
+	"	48	10
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\lcdkit\lcdkit.h
+	*	1494810237	0
+	"	109	55
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\„Ç¢„É´„Éï„Ç°„Éó„É≠„Ç∏„Çß„ÇØ„ÉàË©ï‰æ°Âü∫Êùø\sample\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\lcdkit\lcdkit_b01\lcdkit_b01.h
+	*	1494810055	0
+	"	11	29
+
+> ~\.bashrc
+	*	1494493172	0
+	"	12	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~\.ssh\id_rsa.bit.pub
+	*	1494492577	0
+	"	1	0
+
+> C:\Users\takanobu_hara\Desktop\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\main.c
+	*	1494489305	0
+	"	60	30
+
+> C:\Users\takanobu_hara\Desktop\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\scif\scif.c
+	*	1494468316	0
+	"	48	0
+
+> C:\Users\takanobu_hara\Desktop\ap_rza_0a_rtx_sample\sample\ap_rza_0a_rtx\SRC\scif\scif.h
+	*	1494468108	0
+	"	1	0
+
+> C:\Users\takanobu_hara\Desktop\ap_rza_0a_bm_sample\sample\history.txt
+	*	1494462771	0
+	"	1	0
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\common\sbrk.c
+	*	1494388819	0
+	"	27	50
+
+> ~\hiranuma\Ë©ï‰æ°Âü∫Êùø\LCD„Ç≠„ÉÉ„Éà\ap_sh2a_6a_lcdkit\src\common\i2c.h
+	*	1494377467	0
+	"	18	0
