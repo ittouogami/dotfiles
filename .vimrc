@@ -4,9 +4,10 @@
   
 "Encode
 "下記の指定は環境によって文字化けする可能性があるので適宜変更する
-set encoding=UTF-8 "文字コードをUTF-8にする
-set fileencoding=UTF-8 "文字コードをUTF-8にする
-set termencoding=UTF-8 "文字コードをUTF-8にする
+set encoding=utf-8 "文字コードをUTF-8にする
+"set fileencoding=utf-8 "文字コードをUTF-8にする
+set termencoding=utf-8 "文字コードをUTF-8にする
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
   
   
 "File
