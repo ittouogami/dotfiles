@@ -7,7 +7,7 @@
 set encoding=utf-8 "文字コードをUTF-8にする
 "set fileencoding=utf-8 "文字コードをUTF-8にする
 set termencoding=utf-8 "文字コードをUTF-8にする
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=iso-2022-jp,utf-8,euc-jp,sjis
   
   
 "File
@@ -20,7 +20,7 @@ set backupdir=$HOME/_vim/backup    "バックアップディレクトリを指定する
 set browsedir=buffer    "ファイル保存ダイアログの初期ディレクトリをバッファファイル位置に設定
 set directory=$HOME/_vim/backup,c:\temp    "スワップファイルディレクトリを指定する
 set history=1000    "履歴保存数
-set undodir=$HOME/_VIM/backup 
+set undodir=$HOME/_vim/backup 
   
 "Search
 set noincsearch   "インクリメンタルサーチを行う
@@ -28,10 +28,13 @@ set hlsearch    "検索結果をハイライトする
 set noignorecase    "検索時に文字の大小を区別しない
 set smartcase    "検索時に大文字を含んでいたら大小を区別する
 "set wrapscan    "検索をファイルの先頭へループする
+set foldmethod=manual
+set foldlevel=100 "not fold
   
   
 "Input
-set cindent "C言語のインデントに従って自動インデントを行う
+set noautoindent
+"set cindent "C言語のインデントに従って自動インデントを行う
 set shiftwidth=4    "行頭での<Tab>の幅
 set tabstop=4   "行頭以外での<Tab>の幅
 set expandtab   "<Tab>の代わりに<Space>を挿入する
@@ -39,6 +42,10 @@ set softtabstop=4   "expandtabで<Tab>が対応する<Space>の数
 set backspace=indent,eol,start
 "set whichwrap=b,s,h,l,<,>,[,] "カーソルを行頭、行末で止まらないようにする"
 set clipboard=unnamed "クリップボードを利用する
+
+"font
+set guifont=MS_Gothic:h10
+set guifontwide=MS_Gothic:h10
   
 "" Dvorak用にhtで左右移動するようRemap
 "noremap  t     l
@@ -50,14 +57,14 @@ inoremap <c-f> <right>
 inoremap <c-b> <left>
   
 "" 空白文字を表示
-set list    "タブ、行末等の不可視文字を表示する
-"set listchars=tab:> ,trail:_,eol:$"
+"set list    "タブ、行末等の不可視文字を表示する
+"set listchars=tab:>-,trail:-,eol:$
 scriptencoding utf-8 "これ入れないと下記が反映されない
-augroup highlightZenkakuSpace "全角スペースを赤色にする
-  autocmd!
-  autocmd VimEnter,ColorScheme * highlight ZenkakuSpace term=underline ctermbg=Red guibg=Red
-  autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
-augroup END
+"augroup highlightZenkakuSpace "全角スペースを赤色にする
+"  autocmd!
+"  autocmd VimEnter,ColorScheme * highlight ZenkakuSpace term=underline ctermbg=Red guibg=Red
+"  autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
+"augroup END
 " Flags {{{
 let s:use_dein = 1
 " }}}
