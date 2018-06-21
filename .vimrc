@@ -16,11 +16,11 @@ set autoread    "ファイル内容が変更されると自動読み込みする
   
   
 "Backup
-set backupdir=$HOME/_vim/backup    "バックアップディレクトリを指定する
+set backupdir=$HOME/.vim/backup    "バックアップディレクトリを指定する
 set browsedir=buffer    "ファイル保存ダイアログの初期ディレクトリをバッファファイル位置に設定
-set directory=$HOME/_vim/backup,c:\temp    "スワップファイルディレクトリを指定する
+set directory=$HOME/.vim/backup    "スワップファイルディレクトリを指定する
 set history=1000    "履歴保存数
-set undodir=$HOME/_vim/backup 
+set undodir=$HOME/.vim/backup 
   
 "Search
 set noincsearch   "インクリメンタルサーチを行う
@@ -410,6 +410,9 @@ if s:use_dein && v:version >= 704
   endif
 
   " }}} dein end
+
+  filetype plugin indent on
+  syntax enable
 
   " Installation check.
   if dein#check_install()
