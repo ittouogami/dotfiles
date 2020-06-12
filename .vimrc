@@ -1,422 +1,83 @@
 "Plugin
-"ƒvƒ‰ƒOƒCƒ“‚ğ“Ç‚İ‚Şê‡‚Í‚±‚±‚É‹Lq‚·‚éB
-  
-  
+"ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’èª­ã¿è¾¼ã‚€å ´åˆã¯ã“ã“ã«è¨˜è¿°ã™ã‚‹ã€‚
+
 "Encode
-"‰º‹L‚Ìw’è‚ÍŠÂ‹«‚É‚æ‚Á‚Ä•¶š‰»‚¯‚·‚é‰Â”\«‚ª‚ ‚é‚Ì‚Å“K‹X•ÏX‚·‚é
-set encoding=utf-8 "•¶šƒR[ƒh‚ğUTF-8‚É‚·‚é
-"set fileencoding=utf-8 "•¶šƒR[ƒh‚ğUTF-8‚É‚·‚é
-set termencoding=utf-8 "•¶šƒR[ƒh‚ğUTF-8‚É‚·‚é
-set fileencodings=iso-2022-jp,utf-8,euc-jp,sjis
-  
-  
+"ä¸‹è¨˜ã®æŒ‡å®šã¯ç’°å¢ƒã«ã‚ˆã£ã¦æ–‡å­—åŒ–ã‘ã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚‹ã®ã§é©å®œå¤‰æ›´ã™ã‚‹
+set encoding=utf-8 "æ–‡å­—ã‚³ãƒ¼ãƒ‰ã‚’UTF-8ã«ã™ã‚‹
+set termencoding=utf-8 "æ–‡å­—ã‚³ãƒ¼ãƒ‰ã‚’UTF-8ã«ã™ã‚‹
+"set fileencodings=iso-2022-jp,utf-8,euc-jp,sjis
+set fileencodings=ucs-bom,utf-8,sjis,euc-jp,iso-2022-jp
+
 "File
-set hidden    "ƒtƒ@ƒCƒ‹•ÏX’†‚Å‚à‘¼‚Ìƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚é‚æ‚¤‚É‚·‚é
-set autoread    "ƒtƒ@ƒCƒ‹“à—e‚ª•ÏX‚³‚ê‚é‚Æ©“®“Ç‚İ‚İ‚·‚é
-  
-  
+set hidden    "ãƒ•ã‚¡ã‚¤ãƒ«å¤‰æ›´ä¸­ã§ã‚‚ä»–ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã‚‹ã‚ˆã†ã«ã™ã‚‹
+set autoread    "ãƒ•ã‚¡ã‚¤ãƒ«å†…å®¹ãŒå¤‰æ›´ã•ã‚Œã‚‹ã¨è‡ªå‹•èª­ã¿è¾¼ã¿ã™ã‚‹
+
 "Backup
-set backupdir=$HOME/.vim/backup    "ƒoƒbƒNƒAƒbƒvƒfƒBƒŒƒNƒgƒŠ‚ğw’è‚·‚é
-set browsedir=buffer    "ƒtƒ@ƒCƒ‹•Û‘¶ƒ_ƒCƒAƒƒO‚Ì‰ŠúƒfƒBƒŒƒNƒgƒŠ‚ğƒoƒbƒtƒ@ƒtƒ@ƒCƒ‹ˆÊ’u‚Éİ’è
-set directory=$HOME/.vim/backup    "ƒXƒƒbƒvƒtƒ@ƒCƒ‹ƒfƒBƒŒƒNƒgƒŠ‚ğw’è‚·‚é
-set history=1000    "—š—ğ•Û‘¶”
-set undodir=$HOME/.vim/backup 
-  
+set backupdir=$HOME/.vim/backup    "ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’æŒ‡å®šã™ã‚‹
+set browsedir=buffer    "ãƒ•ã‚¡ã‚¤ãƒ«ä¿å­˜ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã®åˆæœŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ãƒãƒƒãƒ•ã‚¡ãƒ•ã‚¡>ã‚¤ãƒ«ä½ç½®ã«è¨­å®š
+set directory=$HOME/.vim/backup    "ã‚¹ãƒ¯ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’æŒ‡å®šã™ã‚‹
+set history=1000    "å±¥æ­´ä¿å­˜æ•°
+set undodir=$HOME/.vim/backup
+
 "Search
-set noincsearch   "ƒCƒ“ƒNƒŠƒƒ“ƒ^ƒ‹ƒT[ƒ`‚ğs‚¤
-set hlsearch    "ŒŸõŒ‹‰Ê‚ğƒnƒCƒ‰ƒCƒg‚·‚é
-set noignorecase    "ŒŸõ‚É•¶š‚Ì‘å¬‚ğ‹æ•Ê‚µ‚È‚¢
-set smartcase    "ŒŸõ‚É‘å•¶š‚ğŠÜ‚ñ‚Å‚¢‚½‚ç‘å¬‚ğ‹æ•Ê‚·‚é
-"set wrapscan    "ŒŸõ‚ğƒtƒ@ƒCƒ‹‚Ìæ“ª‚Öƒ‹[ƒv‚·‚é
+set noincsearch   "ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ã‚¿ãƒ«ã‚µãƒ¼ãƒã‚’è¡Œã†
+set hlsearch    "æ¤œç´¢çµæœã‚’ãƒã‚¤ãƒ©ã‚¤ãƒˆã™ã‚‹
+set noignorecase    "æ¤œç´¢æ™‚ã«æ–‡å­—ã®å¤§å°ã‚’åŒºåˆ¥ã—ãªã„
+set smartcase    "æ¤œç´¢æ™‚ã«å¤§æ–‡å­—ã‚’å«ã‚“ã§ã„ãŸã‚‰å¤§å°ã‚’åŒºåˆ¥ã™ã‚‹
+"set wrapscan    "æ¤œç´¢ã‚’ãƒ•ã‚¡ã‚¤ãƒ«ã®å…ˆé ­ã¸ãƒ«ãƒ¼ãƒ—ã™ã‚‹
 set foldmethod=manual
 set foldlevel=100 "not fold
-  
-  
+
 "Input
 set noautoindent
-"set cindent "CŒ¾Œê‚ÌƒCƒ“ƒfƒ“ƒg‚É]‚Á‚Ä©“®ƒCƒ“ƒfƒ“ƒg‚ğs‚¤
-set shiftwidth=4    "s“ª‚Å‚Ì<Tab>‚Ì•
-set tabstop=4   "s“ªˆÈŠO‚Å‚Ì<Tab>‚Ì•
-set expandtab   "<Tab>‚Ì‘ã‚í‚è‚É<Space>‚ğ‘}“ü‚·‚é
-set softtabstop=4   "expandtab‚Å<Tab>‚ª‘Î‰‚·‚é<Space>‚Ì”
+"set cindent "Cè¨€èªã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã«å¾“ã£ã¦è‡ªå‹•ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’è¡Œã†
+set shiftwidth=4    "è¡Œé ­ã§ã®<Tab>ã®å¹…
+set tabstop=4   "è¡Œé ­ä»¥å¤–ã§ã®<Tab>ã®å¹…
+set expandtab   "<Tab>ã®ä»£ã‚ã‚Šã«<Space>ã‚’æŒ¿å…¥ã™ã‚‹
+set softtabstop=4   "expandtabã§<Tab>ãŒå¯¾å¿œã™ã‚‹<Space>ã®æ•°
 set backspace=indent,eol,start
-"set whichwrap=b,s,h,l,<,>,[,] "ƒJ[ƒ\ƒ‹‚ğs“ªAs––‚Å~‚Ü‚ç‚È‚¢‚æ‚¤‚É‚·‚é"
-set clipboard=unnamed "ƒNƒŠƒbƒvƒ{[ƒh‚ğ—˜—p‚·‚é
+"set whichwrap=b,s,h,l,<,>,[,] "ã‚«ãƒ¼ã‚½ãƒ«ã‚’è¡Œé ­ã€è¡Œæœ«ã§æ­¢ã¾ã‚‰ãªã„ã‚ˆã†ã«ã™ã‚‹"
+set clipboard=unnamed "ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã‚’åˆ©ç”¨ã™ã‚‹
+set number
 
 "font
-set guifont=MS_Gothic:h10
-set guifontwide=MS_Gothic:h10
-  
-"" Dvorak—p‚Éht‚Å¶‰EˆÚ“®‚·‚é‚æ‚¤Remap
-"noremap  t     l
-  
-"" ‘}“üƒ‚[ƒh’†‚É'Ctr-*'‚ÅƒRƒ}ƒ“ƒhƒ‚[ƒh‚Å‚ÌˆÚ“®‚ğ‰Â”\‚É‚·‚é
-"ƒJ[ƒ\ƒ‹‚ğ‰E‚Öifowardj
+"set guifont=MS_Gothic:h10
+"set guifontwide=MS_Gothic:h10
+
+"" æŒ¿å…¥ãƒ¢ãƒ¼ãƒ‰ä¸­ã«'Ctr-*'ã§ã‚³ãƒãƒ³ãƒ‰ãƒ¢ãƒ¼ãƒ‰ã§ã®ç§»å‹•ã‚’å¯èƒ½ã«ã™ã‚‹
+"ã‚«ãƒ¼ã‚½ãƒ«ã‚’å³ã¸ï¼ˆfowardï¼‰
 inoremap <c-f> <right>
-"ƒJ[ƒ\ƒ‹‚ğ¶‚Öibackwardj
+"ã‚«ãƒ¼ã‚½ãƒ«ã‚’å·¦ã¸ï¼ˆbackwardï¼‰
 inoremap <c-b> <left>
-  
-"" ‹ó”’•¶š‚ğ•\¦
-"set list    "ƒ^ƒuAs––“™‚Ì•s‰Â‹•¶š‚ğ•\¦‚·‚é
-"set listchars=tab:>-,trail:-,eol:$
-scriptencoding utf-8 "‚±‚ê“ü‚ê‚È‚¢‚Æ‰º‹L‚ª”½‰f‚³‚ê‚È‚¢
-"augroup highlightZenkakuSpace "‘SŠpƒXƒy[ƒX‚ğÔF‚É‚·‚é
-"  autocmd!
-"  autocmd VimEnter,ColorScheme * highlight ZenkakuSpace term=underline ctermbg=Red guibg=Red
-"  autocmd VimEnter,WinEnter * match ZenkakuSpace /@/
-"augroup END
-" Flags {{{
+
+scriptencoding utf-8 "ã“ã‚Œå…¥ã‚Œãªã„ã¨ä¸‹è¨˜ãŒåæ˜ ã•ã‚Œãªã„
 let s:use_dein = 1
-" }}}
 
-" Prepare .vim dir {{{
-let s:vimdir = $HOME . '/.vim'
-if has('vim_starting')
-  if ! isdirectory(s:vimdir)
-    call system('mkdir ' . s:vimdir)
-  endif
+"dein
+if &compatible
+  set nocompatible
 endif
-" }}}
 
-" dein {{{
-let s:dein_enabled  = 0
-if s:use_dein && v:version >= 704
-  let s:dein_enabled = 1
-
-  " Set dein paths
-  let s:dein_dir = s:vimdir . '/dein'
-  let s:dein_github = s:dein_dir . '/repos/github.com'
-  let s:dein_repo_name = 'Shougo/dein.vim'
-  let s:dein_repo_dir = s:dein_github . '/' . s:dein_repo_name
-
-  " Check dein has been installed or not.
-  if !isdirectory(s:dein_repo_dir)
-    echo 'dein is not installed, install now '
-    let s:dein_repo = 'https://github.com/' . s:dein_repo_name
-    echo 'git clone ' . s:dein_repo . ' ' . s:dein_repo_dir
-    call system('git clone ' . s:dein_repo . ' ' . s:dein_repo_dir)
-  endif
-  let &runtimepath = &runtimepath . ',' . s:dein_repo_dir
-
-  " Begin plugin part {{{
-
-  " Check cache
-  if dein#load_state(s:dein_dir)
-    call dein#begin(s:dein_dir)
-
-    " dein
-    call dein#add('Shougo/dein.vim')
-
-    " Basic tools {{{
-    " Asynchronous execution library: need for vimshell, Gmail, unite, etc...
-    call dein#add('Shougo/vimproc', {'build': 'make'})
-
-    " Support repeat for surround, speedating, easymotion, etc...
-    call dein#add('tpope/vim-repeat')
-
-    " Sub mode
-    call dein#add('kana/vim-submode')
-
-    " webapi
-    call dein#add('mattn/webapi-vim')
-    " }}}
-
-    " Unite {{{
-    " Search and display information from arbitrary sources
-    call dein#add('Shougo/unite.vim', {
-          \ 'depends': ['vimproc'],
-          \ 'on_cmd': ['Unite'],
-          \ 'lazy': 1})
-
-    " Source for unite: mru
-    call dein#add('Shougo/neomru.vim', {'depdens': ['unite.vim']})
-
-    " Source for unite: mark
-    call dein#add('tacroe/unite-mark', {'depdens': ['unite.vim']})
-
-    " Source for unite: help
-    call dein#add('tsukkee/unite-help', {'depdens': ['unite.vim']})
-
-    " Source for unite: history/command, history/search
-    call dein#add('thinca/vim-unite-history', {'depdens': ['unite.vim']})
-
-    " Source for unite: history/yank
-    call dein#add('Shougo/neoyank.vim', {'depdens': ['unite.vim']})
-
-    " Source for unite: tag
-    call dein#add('tsukkee/unite-tag', {'depdens': ['unite.vim']})
-
-    " Source for unite: outline
-    call dein#add('Shougo/unite-outline', {'depdens': ['unite.vim']})
-    " }}}
-
-    " Completion {{{
-    if has('lua')
-      call dein#add('Shougo/neocomplete.vim', {
-            \ 'on_i': 1,
-            \ 'lazy': 1})
-      call dein#add('ujihisa/neco-look', {
-            \ 'depends': ['neocomplete.vim']})
-    endif
-    " }}}
-
-    " Snippet {{{
-    call dein#add('Shougo/neosnippet')
-    "      \ 'on_map': ['<Plug>(neosnippet_expand_or_jump)',
-    "      \            '<Plug>(neosnippet_expand_target)'],
-    "      \ 'lazy': 1})
-    call dein#add('Shougo/neosnippet-snippets', {'depdens': ['neosnippet']})
-    call dein#add('honza/vim-snippets', {'depdens': ['neosnippet']})
-    call dein#add('rcmdnk/vim-octopress-snippets', {'depdens': ['neosnippet']})
-    " }}}
-
-    " Code syntax, tools for each language {{{
-
-    " Applescript
-    call dein#add('vim-scripts/applescript.vim')
-
-    " Automatic LaTeX Plugins
-    "call dein#add('coot/atp_vim')
-
-    " CSS3 (Sass)
-    call dein#add('hail2u/vim-css3-syntax.git')
-
-    " c++ {{{
-    " syntax with c++11 support
-    call dein#add('vim-jp/cpp-vim')
-    " c++ completion
-    call dein#add('osyo-manga/vim-marching')
-    " c++ formatting
-    call dein#add('rhysd/vim-clang-format')
-    " }}}
-
-    " Go
-    " Extra plugins for Go
-    call dein#add('vim-jp/vim-go-extra')
-
-    " Java
-    call dein#add('koron/java-helper-vim')
-
-    " Markdown {{{
-    call dein#add('junegunn/vader.vim')
-    call dein#add('godlygeek/tabular')
-    call dein#add('joker1007/vim-markdown-quote-syntax')
-    call dein#add('rcmdnk/vim-markdown')
-    " }}}
-
-    " Python {{{
-    " indent
-    call dein#add('hynek/vim-python-pep8-indent')
-    " Folding method for python, but makes completion too slow...?
-    call dein#add('vim-scripts/python_fold')
-    " }}}
-
-    " Powershell
-    call dein#add('PProvost/vim-ps1')
-
-    " Homebrew
-    call dein#add('xu-cheng/brew.vim')
-
-    " LaTex
-    call dein#add('lervag/vimtex')
-
-    " Vim Syntax
-    call dein#add('dbakker/vim-lint')
-
-    " Syntax checking
-    "call dein#add('vim-syntastic/syntastic')
-    call dein#add('neomake/neomake')
-    call dein#add('benjie/neomake-local-eslint.vim')
-    " }}}
-
-    " View {{{
-    " Status line
-    call dein#add('itchyny/lightline.vim')
-
-    " Visual indent guides: make moving slow?
-    call dein#add('nathanaelkane/vim-indent-guides')
-
-    " Konfekt/FastFold
-    call dein#add('Konfekt/FastFold')
-
-    " replacement of matchparen (require OptionSet sutocommand event)
-    if (v:version == 704 && has('patch786')) || v:version >= 705
-      call dein#add('itchyny/vim-parenmatch')
-    endif
-
-    " Diff {{{
-    " linediff
-    call dein#add('AndrewRadev/linediff.vim', {
-          \ 'on_cmd': ['Linediff'],
-          \ 'lazy': 1})
-
-    " Character base diff
-    "call dein#add('rickhowe/diffchar.vim')
-
-    " diff enhanced
-    "if v:version >= 800
-    "  call dein#add('chrisbra/vim-diff-enhanced')
-    "endif
-    " }}} Diff
-
-    " IDE like {{{
-    " The NERD Tree: File Explorer
-    call dein#add('scrooloose/nerdtree', {
-          \ 'on_cmd': ['NERDTreeToggle'],
-          \ 'lazy': 1})
-
-    " Source Explorer
-    call dein#add('wesleyche/SrcExpl', {
-          \ 'on_cmd': ['SrcExplToggle'],
-          \ 'lazy': 1})
-
-    " For Tags
-    call dein#add('majutsushi/tagbar', {
-          \ 'on_cmd': ['TagbarToggle'],
-          \ 'lazy': 1})
-    " }}} IDE like
-    " }}} View
-
-    " Version Control System {{{
-    " Git
-    call dein#add('tpope/vim-fugitive')
-    call dein#add('gregsexton/gitv', {
-          \ 'depdens': ['tpope/vim-fugitive'],
-          \ 'on_cmd': ['Gitv'],
-          \ 'lazy': 1})
-
-    " Version control (especially for VCSVimDiff (<Leader>cv)
-    call dein#add('vim-scripts/vcscommand.vim', {
-          \ 'on_cmd': ['VCSVimDiff'],
-          \ 'lazy': 1})
-
-    " Gist
-    call dein#add('mattn/gist-vim', {
-          \ 'depdens': ['mattn/webapi-vim'],
-          \ 'on_cmd': ['Gist'],
-          \ 'lazy': 1})
-    " }}} Version Control System
-
-    " Selection {{{
-    " wildfire
-    "call dein#add('gcmt/wildfire.vim')
-
-    " Highlight on the fly
-    call dein#add('t9md/vim-quickhl')
-    " }}} Selection
-
-    " Search {{{
-    " Count searching objects
-    call dein#add('osyo-manga/vim-anzu')
-
-    " Improved incremental searching (default incsearch shows only the next one.)
-    call dein#add('haya14busa/incsearch.vim')
-    " }}} Search
-
-    " Edit {{{
-    " textobj {{{
-    call dein#add('kana/vim-textobj-user')
-    " line: al, il
-    call dein#add('kana/vim-textobj-line', {'depends': ['vim-textobj-user']})
-    " line: ai, ii
-    call dein#add('kana/vim-textobj-indent', {'depends': ['vim-textobj-user']})
-    " function: af, if
-    call dein#add('kana/vim-textobj-function', {'depends': ['vim-textobj-user']})
-    " comment: ac, ic
-    call dein#add('thinca/vim-textobj-comment', {'depends': ['vim-textobj-user']})
-    " }}}
-
-    " Operator {{{
-    call dein#add('kana/vim-operator-user')
-    call dein#add('kana/vim-operator-replace', {'depdens': ['vim-operator-user']})
-    " }}}
-
-    " Gundo
-    call dein#add('sjl/gundo.vim', {
-          \ 'on_cmd': ['GundoToggle'],
-          \ 'lazy': 1})
-
-    " Align
-    call dein#add('h1mesuke/vim-alignta', {
-          \ 'on_cmd': ['Alignta'],
-          \ 'lazy': 1})
-
-    " yank
-    call dein#add('LeafCage/yankround.vim')
-
-    " over
-    call dein#add('osyo-manga/vim-over', {
-          \ 'on_cmd': ['OverCommandLine'],
-          \ 'lazy': 1})
-
-    " vim-multiple-cursors, like Sublime Text's multiple selection
-    "call dein#add('terryma/vim-multiple-cursors')
-
-    " Easy to change surround
-    call dein#add('tpope/vim-surround')
-
-    " }}} Edit
-
-    " Move {{{
-    " Easymotion
-    call dein#add('easymotion/vim-easymotion', {
-          \ 'on_map': ['<Plug>(easymotion-sn)', '<Plug>(easymotion-bd-W)',
-          \            '<Plug>(easymotion-bd-w)'],
-          \ 'lazy': 1})
-
-    " }}} Move
-
-    " Check language, web source {{{
-    " vim-ref
-    call dein#add('thinca/vim-ref', {
-          \ 'on_cmd': ['Ref'],
-          \ 'lazy': 1})
-
-    " Grammer check with LanguageTool
-    call dein#add('rhysd/vim-grammarous', {
-          \ 'on_cmd': ['GrammarousCheck'],
-          \ 'lazy': 1})
-
-    " Google Translate
-    call dein#add('daisuzu/translategoogle.vim', {
-          \ 'on_cmd': ['TranslateGoogle', 'TranslateGoogleCmd'],
-          \ 'lazy': 1})
-    " }}}
-
-    " Other tools {{{
-    " Make benchmark result of vimrc
-    call dein#add('mattn/benchvimrc-vim', {
-          \ 'on_cmd': ['BenchVimrc'],
-          \ 'lazy': 1})
-
-    " Open browser
-    call dein#add('tyru/open-browser.vim', {
-          \ 'on_map': ['<Plug>(openbrowser-smart-search)'],
-          \ 'lazy': 1})
-
-    " Database access
-    call dein#add('vim-scripts/dbext.vim')
-
-    " Like spacemacs, but for vim
-    call dein#add('SpaceVim/SpaceVim')
-    " }}}
-
-    " Fun {{{dotfiles
-    " }}}
+"dein.vimãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’runtimepathã«è¿½åŠ ã™ã‚‹
+set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+
+"ä»¥ä¸‹å®šå‹æ–‡
+if dein#load_state("~/.vim/dein")
+  call dein#begin("~/.vim/dein")
+    call dein#add("~/.vim/dein/repos/github.com/Shougo/dein.vim")
+    
+      "å¥½ããªãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’ dein#add() è¿½åŠ ã—ã¦ã„ã
+      call dein#add('vim-airline/vim-airline')
+      call dein#add('vim-scripts/gtags.vim')
 
     call dein#end()
-
-    call dein#save_state()
-  endif
-
-  " }}} dein end
-
-  filetype plugin indent on
-  syntax enable
-
-  " Installation check.
-  if dein#check_install()
-    call dein#install()
-  endif
+  call dein#save_state()
 endif
-" }}} dein
+
+filetype plugin indent on
+syntax enable
+
+if dein#check_install()
+  call dein#install()
+endif
+
